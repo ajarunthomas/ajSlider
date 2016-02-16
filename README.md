@@ -1,4 +1,4 @@
 # ajSlider
-Image and Content jQuery Plugin
+Image and Content Slider jQuery Plugin
 Developed by Arun Thomas
 www.ajarunthomas.com
