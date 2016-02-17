@@ -25,7 +25,7 @@ jQuery(window).load(function() {
     $('#ajSlider').ajSlider(3000);
 });
 ```
-where 300 is the interval between each slide
+where 3000 is the interval between each slide
 ### more options
 ```
 jQuery(window).load(function() {
