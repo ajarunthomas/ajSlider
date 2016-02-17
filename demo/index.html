@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
-<script type="text/javascript" src="js/ajSlider.min.js"></script>
+<script type="text/javascript" src="js/ajSlider.js"></script>
 
 <title>ajSlider Demo</title>
 
@@ -22,7 +22,7 @@ body{
 </style>
 
 <script>
-jQuery(window).load(function() {
+$( document ).ready(function() {
     $('#ajSlider').ajSlider(3000,{
 		"width":"100%",//width of slider
 		"height":"100%",//height of slider
@@ -49,6 +49,13 @@ jQuery(window).load(function() {
     <a>fourth slide in the slider</a>
     <a>fifth slide in the slider</a>
     
+    <div id="left"><a>a</a>
+    	<img src="images/left.png" />
+    </div>
+    
+    <div id="right">
+    	<img src="images/right.png" />
+    </div>
 </div>
 
 </body>
