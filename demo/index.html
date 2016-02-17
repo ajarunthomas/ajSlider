@@ -1,0 +1,62 @@
+<!DOCTYPE>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="js/ajSlider.js"></script>
+
+<title>ajSlider Demo</title>
+
+<style>
+@font-face{
+    font-family: "Montserrat";
+    src: url('fonts/Montserrat.otf'),
+    url('fonts/Montserrat.otf'); /* IE */
+}
+body{
+	margin:0;
+	font-family:Montserrat;
+	color:rgb(255,255,255);
+}
+</style>
+
+<script>
+jQuery(window).load(function() {
+    $('#ajSlider').ajSlider(3000,{
+		"width":"100%",//width of slider
+		"height":"100%",//height of slider
+		"textPosition":"30%",//position of text from top
+		"textSize":"60px"//font size of the text
+		});
+});
+</script>
+
+</head>
+
+<body>
+
+<div id="ajSlider">
+	<img src="images/1.jpg" />
+    <img src="images/2.jpg" />
+    <img src="images/3.jpg" />
+    <img src="images/4.jpg" />
+    <img src="images/5.jpg" />
+
+	<a>first slide in the slider</a>
+    <a>second slide in the slider</a>
+    <a>third slide in the slider</a>
+    <a>fourth slide in the slider</a>
+    <a>fifth slide in the slider</a>
+    
+    <div id="left"><a>a</a>
+    	<img src="images/left.png" />
+    </div>
+    
+    <div id="right">
+    	<img src="images/right.png" />
+    </div>
+</div>
+
+</body>
+</html>
