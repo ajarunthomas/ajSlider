@@ -3,7 +3,7 @@ Image and Content Slider jQuery Plugin
 Developed by Arun Thomas
 www.ajarunthomas.com
 ##USAGE
-###HTML
+###Step 1 : HTML
 ```
 <div id="ajSlider">
   <img src="images/1.jpg" />
@@ -18,4 +18,25 @@ www.ajarunthomas.com
   <a>Text 4</a>
   <a>Text 5</a>
 </div>
+```
+###Step 2 : Initialize jQuery
+```
+jQuery(window).load(function() {
+    $('#ajSlider').ajSlider(3000);
+});
+```
+where 300 is the interval between each slide
+### more options
+```
+jQuery(window).load(function() {
+    $('#ajSlider').ajSlider(3000,{
+		"slideshow":"disable", //disable or enable the slideshow
+		"width":"100%", //width of slider
+		"height":"100%", //height of slider
+		"activeBullet":"red", //color of the active bullet
+		"inactiveBullet":"orange", //color of inactive bullet
+		"textPosition":"30%", //position of text from top
+		"textSize":"60px" //font size of the text
+		});
+});
 ```
