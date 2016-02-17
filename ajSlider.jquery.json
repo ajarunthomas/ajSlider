@@ -1,10 +1,7 @@
 {
   "name": "ajSlider",
-  "version": "1.1.0",
+  "version": "1.1.2",
+  "title": "ajSlider",
   "author": "Arun Thomas",
-  "description": "An Image and content slider jQuery plugin",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/ajarunthomas/ajSlider"
-  }
+  "description": "An Image and content slider jQuery plugin"
 }
