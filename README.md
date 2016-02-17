@@ -21,7 +21,7 @@ www.ajarunthomas.com
 ```
 ###Step 2 : Initialize jQuery
 ```
-jQuery(window).load(function() {
+$( document ).ready(function() {
     $('#ajSlider').ajSlider(3000);
 });
 ```
