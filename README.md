@@ -4,7 +4,7 @@ Developed by Arun Thomas
 www.ajarunthomas.com
 ##USAGE
 ###HTML
-'''
+```
 <div id="ajSlider">
   <img src="images/1.jpg" />
   <img src="images/2.jpg" />
@@ -18,4 +18,4 @@ www.ajarunthomas.com
   <a>Text 4</a>
   <a>Text 5</a>
 </div>
-'''
+```
