@@ -28,7 +28,7 @@ jQuery(window).load(function() {
 where 3000 is the interval between each slide
 ### more options
 ```
-jQuery(window).load(function() {
+$( document ).ready(function() {
     $('#ajSlider').ajSlider(3000,{
 		"slideshow":"disable", //disable or enable the slideshow
 		"width":"100%", //width of slider
