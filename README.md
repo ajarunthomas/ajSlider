@@ -49,3 +49,19 @@ $(window).load(function() {
 		});
 });
 ```
+### CSS (Optional)
+If your images are taking long time to load, then you need to hide all the images except the first.
+<br>
+```
+<style>	
+#ajSlider img{	
+ 	display:none;	
+}	
+#ajSlider img:first-child{	
+ 	display:block;	
+}	
+#ajSlider a{	
+ 	display:none;	
+}	
+</style>
+```
