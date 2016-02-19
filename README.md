@@ -2,8 +2,17 @@
 Image and Content Slider jQuery Plugin
 Developed by Arun Thomas
 www.ajarunthomas.com
+<br>
+<br>
+<a href="http://www.ajarunthomas.com/jquery/ajSlider/demo/" target="_blank" style="text-decoration:none">Demo</a>
+<a download href="http://www.ajarunthomas.com/files/ajSlider.js" target="_blank" style="text-decoration:none">Download</a>
 ##USAGE
-###Step 1 : HTML
+###Step 1 : Include js
+```
+<script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="js/ajSlider.js"></script>
+```
+###Step 2 : HTML
 ```
 <div id="ajSlider">
   <img src="images/1.jpg" />
@@ -19,7 +28,7 @@ www.ajarunthomas.com
   <a>Text 5</a>
 </div>
 ```
-###Step 2 : Initialize jQuery
+###Step 3 : Initialize jQuery
 ```
 $( document ).ready(function() {
     $('#ajSlider').ajSlider(3000);
