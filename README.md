@@ -30,14 +30,14 @@ www.ajarunthomas.com
 ```
 ###Step 3 : Initialize jQuery
 ```
-$( document ).ready(function() {
+$(window).load(function() {
     $('#ajSlider').ajSlider(3000);
 });
 ```
 where 3000 is the interval between each slide
 ### more options
 ```
-$( document ).ready(function() {
+$(window).load(function() {
     $('#ajSlider').ajSlider(3000,{
 		"slideshow":"disable", //disable or enable the slideshow
 		"width":"100%", //width of slider
