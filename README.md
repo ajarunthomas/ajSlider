@@ -7,7 +7,7 @@ www.ajarunthomas.com
 <a href="http://www.ajarunthomas.com/jquery/ajSlider/demo/" target="_blank" style="text-decoration:none">Demo</a>
 <a download href="http://www.ajarunthomas.com/files/ajSlider.js" target="_blank" style="text-decoration:none">Download</a>
 <br><br>
-<a href="http://http://www.ajarunthomas.com/jquery/ajSlider/" target="_blank" style="text-decoration:none">Website</a>
+<a href="http://www.ajarunthomas.com/jquery/ajSlider/" target="_blank" style="text-decoration:none">Website</a>
 ##USAGE
 ###Step 1 : Include js
 ```
