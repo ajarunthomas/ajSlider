@@ -1,6 +1,8 @@
 # ajSlider
 Image and Content Slider jQuery Plugin
+<br>
 Developed by Arun Thomas
+<br>
 www.ajarunthomas.com
 <br>
 <br>
@@ -17,11 +19,11 @@ www.ajarunthomas.com
 ###Step 2 : HTML
 ```
 <div id="ajSlider">
-  <img src="images/1.jpg" />
-  <img src="images/2.jpg" />
-  <img src="images/3.jpg" />
-  <img src="images/4.jpg" />
-  <img src="images/5.jpg" />
+  <img src="images/1.jpg" width="" height="" />
+  <img src="images/2.jpg" width="" height="" />
+  <img src="images/3.jpg" width="" height="" />
+  <img src="images/4.jpg" width="" height="" />
+  <img src="images/5.jpg" width="" height="" />
   
   <a>Text 1</a>
   <a>Text 2</a>
@@ -30,16 +32,18 @@ www.ajarunthomas.com
   <a>Text 5</a>
 </div>
 ```
+Important : Don't forget to enter the width and height of the images if the jQuery is initialized in $(document).ready(function{});
+<br>
 ###Step 3 : Initialize jQuery
 ```
-$(window).load(function() {
+$(document).ready(function() {
     $('#ajSlider').ajSlider(3000);
 });
 ```
 where 3000 is the interval between each slide
 ### more options
 ```
-$(window).load(function() {
+$(document).ready(function() {
     $('#ajSlider').ajSlider(3000,{
 		"slideshow":"disable", //disable or enable the slideshow
 		"width":"100%", //width of slider
@@ -50,20 +54,4 @@ $(window).load(function() {
 		"textSize":"60px" //font size of the text
 		});
 });
-```
-### CSS (Optional)
-If your images are taking long time to load, then you need to hide all the images except the first.
-<br>
-```
-<style>	
-#ajSlider img{	
- 	display:none;	
-}	
-#ajSlider img:first-child{	
- 	display:block;	
-}	
-#ajSlider a{	
- 	display:none;	
-}	
-</style>
 ```
