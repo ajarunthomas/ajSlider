@@ -3,5 +3,20 @@
   "version": "1.1.2",
   "title": "ajSlider",
   "author": "Arun Thomas",
-  "description": "An Image and content slider jQuery plugin"
+  "keywords": [
+        "ajSlider",
+        "slider",
+        "slideshow",
+        "image"
+  ],
+  "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/ajarunthomas/ajSlider/blob/master/LICENSE"
+        }
+  ],
+  "description": "An Image and content slider jQuery plugin",
+  "homepage": "http://www.ajarunthomas.com/jquery/ajSlider/index.html",
+  "docs": "http://www.ajarunthomas.com/jquery/ajSlider/docs.html",
+  "download": "http://www.ajarunthomas.com/jquery/ajSlider/js/ajSlider.js"
 }
