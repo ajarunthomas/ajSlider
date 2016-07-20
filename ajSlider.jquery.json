@@ -15,6 +15,9 @@
             "url": "https://github.com/ajarunthomas/ajSlider/blob/master/LICENSE"
         }
   ],
+  "dependencies": {
+    "jquery": ">=1.7"
+  },
   "description": "An Image and content slider jQuery plugin",
   "homepage": "http://www.ajarunthomas.com/jquery/ajSlider",
   "docs": "http://www.ajarunthomas.com/jquery/ajSlider/docs.html",
