@@ -10,13 +10,13 @@ www.ajarunthomas.com
 <a download href="http://www.ajarunthomas.com/files/ajSlider.js" target="_blank" style="text-decoration:none">Download</a>
 <br><br>
 <a href="http://www.ajarunthomas.com/jquery/ajSlider/" target="_blank" style="text-decoration:none">Website</a>
-##USAGE
-###Step 1 : Include js
+## USAGE
+### Step 1 : Include js
 ```
 <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
 <script type="text/javascript" src="js/ajSlider.js"></script>
 ```
-###Step 2 : HTML
+### Step 2 : HTML
 ```
 <div id="ajSlider">
   <img src="images/1.jpg" width="" height="" />
@@ -34,7 +34,7 @@ www.ajarunthomas.com
 ```
 Important : Don't forget to enter the width and height of the images if the jQuery is initialized in $(document).ready(function{});
 <br>
-###Step 3 : Initialize jQuery
+### Step 3 : Initialize jQuery
 ```
 $(document).ready(function() {
     $('#ajSlider').ajSlider(3000);
